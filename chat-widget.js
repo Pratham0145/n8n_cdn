@@ -1,4 +1,4 @@
-// Version: 1.0.8
+// Version: 1.0.9
 // Author:  Prathamesh Patil 
 // Date: 2025-08-18
 // modified Date: 2025-10-06
@@ -2384,14 +2384,27 @@
 
 
 
-                var TrulienceAvatarID= "9157726394911311097"; 
-                var TrulienceAvatarToken = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJUb2tlbiBmcm9tIGN1c3RvbSBzdHJpbmciLCJleHAiOjQ4NzU0MDAzNTV9.dgxWkX1WXbL7a880_yGksZNVTcvKNsozn3np5CGsjOmwKga_UO6lJqdXGUviuyzclvrVZAHYcnycfUF9AsypuQ";  
+                // var TrulienceAvatarID= "9157726394911311097"; 
+                // var TrulienceAvatarToken = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJUb2tlbiBmcm9tIGN1c3RvbSBzdHJpbmciLCJleHAiOjQ4NzU0MDAzNTV9.dgxWkX1WXbL7a880_yGksZNVTcvKNsozn3np5CGsjOmwKga_UO6lJqdXGUviuyzclvrVZAHYcnycfUF9AsypuQ";  
+                
+                // const trulienceparams ="dialPageBackground=transparent&connect=true&hideFS=true&hideChatInput=true&hideLetsChatBtn=true&hideMicButton=true&hideHangUpButton=true&hideToast=true&hideSpeakerButton=true";
+                // const trulienceURL = \`https://trulience.com/avatar/\${TrulienceAvatarID}?token=\${TrulienceAvatarToken}&\${trulienceparams}\`;
+
+                
+                
+                
+                var TrulienceAvatarID= "270410148393995534"; 
+                var TrulienceAvatarToken = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJUb2tlbiBmcm9tIGN1c3RvbSBzdHJpbmciLCJleHAiOjQ4NzU0MDAzNTV9.c9SCf6imtIHoJw9JyoepZyaHtVa1cvlWk0RvWGjyu5_OHycopF2M1A3upyQXznGgECpyO4SZmzm_vhkrlox_mg";  
                 
                 const trulienceparams ="dialPageBackground=transparent&connect=true&hideFS=true&hideChatInput=true&hideLetsChatBtn=true&hideMicButton=true&hideHangUpButton=true&hideToast=true&hideSpeakerButton=true";
                 const trulienceURL = \`https://trulience.com/avatar/\${TrulienceAvatarID}?token=\${TrulienceAvatarToken}&\${trulienceparams}\`;
 
 
-
+                
+                
+                
+                
+                
                 // Configuration passed from parent
                 const config = ${JSON.stringify(config)};
 
@@ -2496,7 +2509,7 @@
                             </svg>
                         </span>
                         <div class="n8n-chatbot-version">
-                            v1.0.8
+                            v1.0.9
                         </div>
                         
                         <label class="n8n-toggle-switch" style="margin-left: auto;">
